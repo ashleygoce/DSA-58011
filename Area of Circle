@@ -1,0 +1,61 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled5.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyNIZf0tZ3vjsWovfym0FvJT",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/sreneee/DSA-58011/blob/main/Area%20of%20Circle\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Area of Circle"
+      ],
+      "metadata": {
+        "id": "HUjFv3KhEF2U"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "class circle:\n",
+        "  def __init__ (self, radius):\n",
+        "    self.radius = radius\n",
+        "  \n",
+        "  def Area(self):\n",
+        "    print(3.14* (self.radius * self.radius))\n",
+        "\n",
+        "c1 = circle(7)\n",
+        "c1.Area()\n",
+        "\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "WDN52pRgEJXi"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
